@@ -1,0 +1,357 @@
+/*==================================================
+                SECTION COMPÉTENCES
+==================================================*/
+
+.skills-section {
+    background: #ffffff;
+    padding: 90px 0;
+    margin-top: 100px;
+}
+
+.section-mini-title {
+    color: #1f5eff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+/*======================
+      SKILLS
+=======================*/
+
+.skill {
+    margin-bottom: 35px;
+}
+
+.skill span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1b1b1b;
+}
+
+.progress {
+
+    height: 8px;
+
+    margin-top: 10px;
+
+    border-radius: 50px;
+
+    background: #ececec;
+
+    overflow: hidden;
+
+}
+
+.progress-bar {
+
+    border-radius: 50px;
+
+    animation: grow 2s ease forwards;
+
+}
+
+.web {
+
+    width: 95%;
+    background: #1f5eff;
+
+}
+
+.design {
+
+    width: 90%;
+    background: #1f5eff;
+
+}
+
+.graphisme {
+
+    width: 85%;
+    background: #1f5eff;
+
+}
+
+.ux {
+
+    width: 85%;
+    background: #1f5eff;
+
+}
+
+/*======================
+    OUTILS
+=======================*/
+
+.tool-card {
+
+    background: #ffffff;
+
+    border: 1px solid #efefef;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    transition: .4s;
+
+    height: 100%;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .05);
+
+}
+
+.tool-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .10);
+
+}
+
+.tool-card i {
+
+    font-size: 40px;
+
+    margin-bottom: 12px;
+
+}
+
+.tool-card span {
+
+    display: block;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+/* Couleurs */
+
+.html {
+    color: #e44d26;
+}
+
+.css {
+    color: #2965f1;
+}
+
+.js {
+    color: #f7df1e;
+}
+
+.react {
+    color: #61dafb;
+}
+
+.bootstrap {
+    color: #7b2cbf;
+}
+
+.tailwind {
+    color: #38bdf8;
+}
+
+.figma {
+    color: #f24e1e;
+}
+
+.adobe {
+    color: #d400ff;
+}
+
+.photoshop {
+    color: #31a8ff;
+}
+
+.git {
+    color: #f05032;
+}
+
+.github {
+    color: #222;
+}
+
+.firebase {
+    color: #ffb300;
+}
+
+/*======================
+   CARTES BAS
+=======================*/
+
+.feature-card {
+
+    background: #081733;
+
+    color: white;
+
+    border-radius: 20px;
+
+    padding: 28px;
+
+    display: flex;
+
+    align-items: center;
+
+    transition: .4s;
+
+    height: 100%;
+
+}
+
+.feature-card:hover {
+
+    transform: translateY(-10px);
+
+    background: #1f5eff;
+
+}
+
+.feature-card .icon {
+
+    width: 65px;
+
+    height: 65px;
+
+    border-radius: 50%;
+
+    background: #1f5eff;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-right: 18px;
+
+    flex-shrink: 0;
+
+}
+
+.feature-card:hover .icon {
+
+    background: white;
+
+}
+
+.feature-card .icon i {
+
+    font-size: 28px;
+
+    color: white;
+
+}
+
+.feature-card:hover .icon i {
+
+    color: #1f5eff;
+
+}
+
+.feature-card h6 {
+
+    font-size: 20px;
+
+    margin-bottom: 6px;
+
+    font-weight: 700;
+
+}
+
+.feature-card p {
+
+    margin: 0;
+
+    color: #d7d7d7;
+
+    font-size: 14px;
+
+}
+
+/*======================
+     ANIMATION
+=======================*/
+
+@keyframes grow {
+
+    from {
+
+        width: 0;
+
+    }
+
+}
+
+/*======================
+     RESPONSIVE
+=======================*/
+
+@media(max-width:991px) {
+
+    .feature-card {
+
+        margin-bottom: 20px;
+
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .skills-section {
+
+        padding: 60px 0;
+
+    }
+
+    .tool-card {
+
+        padding: 15px;
+
+    }
+
+    .tool-card i {
+
+        font-size: 32px;
+
+    }
+
+    .skill {
+
+        margin-bottom: 28px;
+
+    }
+
+}
+
+@media(max-width:576px) {
+
+    .section-mini-title {
+
+        text-align: center;
+
+    }
+
+    .feature-card {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+    .feature-card .icon {
+
+        margin-right: 0;
+
+        margin-bottom: 15px;
+
+    }
+
+}

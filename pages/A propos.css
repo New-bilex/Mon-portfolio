@@ -1,0 +1,158 @@
+/*============================
+A PROPOS
+=============================*/
+
+.about {
+
+    padding: 120px 0;
+
+    background: white;
+    margin-top: 100px;
+}
+
+
+.section-title {
+
+    display: inline-block;
+
+    background: #e8f0ff;
+
+    color: #2962ff;
+
+    padding: 10px 25px;
+
+    border-radius: 40px;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+}
+
+.about-title {
+
+    font-size: 45px;
+
+    font-weight: 700;
+
+    color: #222;
+
+    margin-bottom: 25px;
+
+}
+
+.about-text {
+
+    font-size: 17px;
+
+    line-height: 1.9;
+
+    color: #666;
+
+}
+
+/* IMAGE */
+
+.about-image {
+
+    position: relative;
+
+}
+
+.about-image img {
+
+    border-radius: 35px;
+
+    box-shadow: 0 25px 60px rgba(0, 0, 0, .15);
+
+}
+
+.experience-card {
+
+    position: absolute;
+
+    bottom: 20px;
+
+    right: -20px;
+
+    background: #2962ff;
+
+    color: white;
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 15px 35px rgba(41, 98, 255, .4);
+
+}
+
+.experience-card h2 {
+
+    font-size: 40px;
+
+    font-weight: 700;
+
+    margin-bottom: 5px;
+
+}
+
+/* CARTES */
+
+.about-card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .08);
+
+    text-align: center;
+
+    height: 100%;
+
+    transition: .4s;
+
+    border: 1px solid #edf2ff;
+
+}
+
+.about-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 25px 45px rgba(41, 98, 255, .18);
+
+}
+
+.about-card i {
+
+    font-size: 45px;
+
+    color: #2962ff;
+
+    margin-bottom: 20px;
+
+}
+
+.about-card h5 {
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+
+}
+
+.about-card p {
+
+    font-size: 15px;
+
+    color: #666;
+
+    line-height: 1.7;
+
+}

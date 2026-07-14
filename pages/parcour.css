@@ -1,0 +1,205 @@
+/*=================================
+      PARCOURS & EXPERTISE
+==================================*/
+
+.experience-section {
+
+    padding: 100px 0;
+
+    background: #ffffff;
+    margin-top: 100px;
+}
+
+.section-heading {
+
+    font-size: 34px;
+
+    font-weight: 700;
+
+    margin-bottom: 40px;
+
+    color: #081733;
+
+}
+
+.section-heading i {
+
+    color: #2962ff;
+
+    margin-right: 10px;
+
+}
+
+/******** TIMELINE ********/
+
+.timeline {
+
+    position: relative;
+
+    padding-left: 35px;
+
+    border-left: 3px solid #2962ff;
+
+}
+
+.timeline-item {
+
+    position: relative;
+
+    margin-bottom: 40px;
+
+}
+
+.timeline-dot {
+
+    position: absolute;
+
+    left: -46px;
+
+    top: 5px;
+
+    width: 18px;
+
+    height: 18px;
+
+    border-radius: 50%;
+
+    background: #2962ff;
+
+    border: 4px solid white;
+
+    box-shadow: 0 0 0 3px #2962ff;
+
+}
+
+.timeline-content {
+
+    background: #fff;
+
+    padding: 15px 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+
+    transition: .4s;
+
+}
+
+.timeline-content:hover {
+
+    transform: translateX(8px);
+
+}
+
+.timeline-content h5 {
+
+    color: #2962ff;
+
+    font-weight: 700;
+
+    margin-bottom: 8px;
+
+}
+
+.timeline-content p {
+
+    color: #666;
+
+    margin: 0;
+
+    line-height: 1.7;
+
+}
+
+/******** EXPERTISE ********/
+
+.expert-card {
+
+    background: #fff;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .08);
+
+    transition: .4s;
+
+    height: 100%;
+
+}
+
+.expert-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 25px 45px rgba(41, 98, 255, .20);
+
+}
+
+.expert-card i {
+
+    font-size: 50px;
+
+    color: #2962ff;
+
+    margin-bottom: 20px;
+
+}
+
+.expert-card h4 {
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+
+}
+
+.expert-card p {
+
+    color: #666;
+
+    line-height: 1.7;
+
+}
+
+/******** Responsive ********/
+
+@media(max-width:991px) {
+
+    .timeline {
+
+        margin-bottom: 50px;
+
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .section-heading {
+
+        font-size: 28px;
+
+        text-align: center;
+
+    }
+
+    .timeline {
+
+        padding-left: 25px;
+
+    }
+
+    .timeline-dot {
+
+        left: -36px;
+
+    }
+
+}
